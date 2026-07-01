@@ -10,7 +10,7 @@ A hardware-software IoT system designed using strict Object-Oriented Programming
 ## 🚀 Technical Highlights
 - **Encapsulated Architecture:** Developed isolated, modular C++ classes for individual hardware sensors (DHT11, MQ-135, and Rain Sensor) to ensure clean data isolation and protection.
 - **State Control:** Implemented clean, scalable conditional logic using custom Enums, reducing controller memory consumption.
-- **Data Ingestion Pipeline:** Streamed real-time telemetry into structured CSV layouts, logging outputs straight to external flat-file formats (`.txt`) for spreadsheet evaluation.
+- **Data Ingestion Pipeline:** Streamed real-time telemetry into structured CSV layouts, logging outputs straight to external flat-file formats (`.txt`) for spreadsheet evaluation. Logged structured CSV data streams from 3 sensor types.
 - **Low-Level Debugging:** Resolved physical hardware signal constraints and runtime logic bugs to achieve high system stability.
 
 ## 🛠️ Components Handled
@@ -22,4 +22,4 @@ A hardware-software IoT system designed using strict Object-Oriented Programming
 - `src/SmartWeatherStation-Code.ino` -> Contains the encapsulated header logic, class instantiation, and the core algorithmic loop execution.
 
 
-Minor documentation update.
+Minor documentation update. 
